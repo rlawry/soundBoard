@@ -1,0 +1,14 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="soundboard.css">
+</head>
+
+<div id="body">
+    <div id="keys-container"></div>
+    <div id="audio-container"></div>
+</div>
+
+<script src="soundboard.js"></script>
+
+</html>

@@ -1,0 +1,77 @@
+h2, p {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#body {
+    flex-flow: column;
+    background: #f2f2f2;
+    color: #1f1e30;
+    justify-content: center;
+    align-items: center;
+    caret-color: transparent;
+    height: 100%;
+}
+
+#keys-container {
+    background: #1f1e30;
+    border-style: solid;
+    border-width: 10px 0;
+    border-color: #38374a;
+    align-content: center;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.key {
+    transition: 0.4s;
+    flex-flow: column;
+    border: 2px solid #bbbbc4;
+    color: #bbbbc4;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    background: #38374a;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 0.8rem;
+}
+
+.key-letter {
+    font-size: 1.5rem;
+}
+
+.playing {
+    background: #b85a4b;
+    transform: scale(1.5);
+    animation: 0.05s infinite alternate waggle;
+}
+
+@keyframes waggle {
+    from {
+        transform: rotate(2grad)
+    }
+    to {
+        transform: rotate(-2grad)
+    }
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: #365fb3;
+    font-weight: bold;
+}
