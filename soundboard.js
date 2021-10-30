@@ -15,7 +15,7 @@ function loadArray() {
     array.push(new Sound("Don't Get it", "D", 68, "dontgetit.mp3"));
     array.push(new Sound("Pepper Spray", "P", 80, "pepperspray.mp3"));
     array.push(new Sound("Neat Planet", "N", 78, "nature1.mp3"));
-    array.push(new Sound("Aspen", "A", 65, "aspen.mp3"));
+    array.push(new Sound("Aspen", "A", 65, "Aspen.mp3"));
     array.push(new Sound("Dodge", "B", 66, "dodge.mp3"));
     array.push(new Sound("Knowledge", "K", 75, "knowledge.mp3"));
     array.push(new Sound("When Will You Learn", "W", 87, "whenwillyoulearn.mp3"));
