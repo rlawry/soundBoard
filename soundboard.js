@@ -12,14 +12,19 @@ function loadArray() {
     array.push(new Sound("Rapper", "R", 82, "rapper.mp3"));
     array.push(new Sound("Corona", "C", 67, "coronavirus.mp3"));
     array.push(new Sound("Question", "Q", 81, "question.mp3"));
-    array.push(new Sound("Don't Get it", "D", 68, "dontgetit.mp3"));
+    array.push(new Sound("Don't Get it", "G", 71, "dontgetit.mp3"));
     array.push(new Sound("Pepper Spray", "P", 80, "pepperspray.mp3"));
     array.push(new Sound("Neat Planet", "N", 78, "nature1.mp3"));
     array.push(new Sound("Aspen", "A", 65, "aspen.mp3"));
-    array.push(new Sound("Dodge", "B", 66, "dodge.mp3"));
+    array.push(new Sound("Dodge", "D", 68, "dodge.mp3"));
     array.push(new Sound("Knowledge", "K", 75, "knowledge.mp3"));
     array.push(new Sound("When Will You Learn", "W", 87, "whenwillyoulearn.mp3"));
     array.push(new Sound("John Cena", "J", 74, "cena.mp3"));
+    array.push(new Sound("That's Right", "T", 84, "ThatsRight.mp3"));
+    array.push(new Sound("Bo", "B", 66, "bosinthehouse.mp3"));
+    array.push(new Sound("7am", "7", 55, "sevenAM.mp3"));
+    array.push(new Sound("Hello", "H", 72, "hello.mp3"));
+    array.push(new Sound("Leaveralone", "L", 76, "leaveralone.mp3"));
 }
 
 function buildSoundboard() {
