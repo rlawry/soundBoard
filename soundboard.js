@@ -25,6 +25,7 @@ function loadArray() {
     array.push(new Sound("7am", "7", 55, "sevenAM.mp3"));
     array.push(new Sound("Hello", "H", 72, "hello.mp3"));
     array.push(new Sound("Leaveralone", "L", 76, "leaveralone.mp3"));
+    array.push(new Sound("Grammarly", "X", 88, "grammarly.mp3"));
 }
 
 function buildSoundboard() {
