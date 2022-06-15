@@ -10,7 +10,7 @@ function loadArray() {
     array.push(new Sound("Scream Idiots", "E", 69, "screamIdiot.mp3"));                 //E    
     array.push(new Sound("Idiots", "I", 73, "idiots.mp3"));                             //I
     array.push(new Sound("Rapper", "R", 82, "rapper.mp3"));                             //R
-    array.push(new Sound("Corona", "C", 67, "coronavirus.mp3"));                        //C
+    array.push(new Sound("Corona", "V", 86, "coronavirus.mp3"));                        //V
     array.push(new Sound("Question", "Q", 81, "question.mp3"));                         //Q
     array.push(new Sound("Don't Get it", "G", 71, "dontgetit.mp3"));                    //G
     array.push(new Sound("Pepper Spray", "P", 80, "pepperspray.mp3"));                  //P
@@ -33,7 +33,8 @@ function loadArray() {
     array.push(new Sound("Life", "Z", 90, "life.mp3"));                                 //Z
     array.push(new Sound("Meow", "M", 77, "no.mp3"));                                   //M
     array.push(new Sound("Ouchie", "F", 70, "ouchie.mp3"));                             //F
-    array.push(new Sound("Who?", "3", 51, "wait.mp3"));                                   //M
+    array.push(new Sound("Who?", "3", 51, "wait.mp3"));                                 //M
+    array.push(new Sound("Correct", "C", 67, "krekt.mp3"));                             //C
 }
 
 function buildSoundboard() {
