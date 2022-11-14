@@ -35,6 +35,8 @@ function loadArray() {
     array.push(new Sound("Ouchie", "F", 70, "ouchie.mp3"));                             //F
     array.push(new Sound("Who?", "3", 51, "wait.mp3"));                                 //M
     array.push(new Sound("Correct", "C", 67, "krekt.mp3"));                             //C
+    array.push(new Sound("Yeet", "Y", 89, "yeet.mp3"));                                 //Y
+    array.push(new Sound("Pad", "4", 52, "pad.mp3"));                                 //Y
 }
 
 function buildSoundboard() {
